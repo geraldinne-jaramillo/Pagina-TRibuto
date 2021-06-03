@@ -1,0 +1,96 @@
+#main{
+    font-family: 'Limelight', cursive;
+   }
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+#img-caption{
+    text-align: center;
+}
+
+#image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 380px;
+    height: 450px;
+    border-style: solid;
+    border-color: violet ;
+    border-radius: 50px;    
+}
+
+#img-div{
+    width: 25%;
+    margin: 0 auto;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#tribute-info{
+    text-align: center;
+}
+
+li {
+    margin: 16px 0;
+    
+  }
+
+  ul {
+    max-width: 400px; /*Sirve para ver que tan centrado quiere la lista, entre más alto el número más a la izquiera se corre la lista */
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+
+  .container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.lista-MasSobreMi{
+    display: flex;
+    
+}
+
+.MasSobreMi{
+    width: 480px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;  
+    flex-shrink: 0;
+   background: #f4f4f4;
+} 
+.imagen-MasSobreMi{
+    width: 480px;
+    height: 380px;
+    object-fit: cover;
+}
+
+.imagen-MasSobreMi1{
+    width: 480px;
+    height: 380px;
+    object-fit: cover;
+}
+
+.detalles-MasSobreMi{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: thistle;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: powderblue;
+    text-align: center;
+}
